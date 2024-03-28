@@ -12,6 +12,11 @@ interface Damagable {
   setHealth: (newHealth: number) => void;
 }
 
+interface Selectable {
+  selectedEvent: () => Selectable;
+  deselectedEvent: () => Selectable;
+}
+
 export abstract class Entity extends Phaser.GameObjects.GameObject implements Selectable, Damagable {
   public ownerId: string;
   public readonly id: string;
