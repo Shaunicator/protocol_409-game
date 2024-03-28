@@ -1,0 +1,131 @@
+{
+    "infantry_light":{
+        "Faction": {
+            "faction1":{
+                "label": "Infantry",
+                "sprite": "infantry.sprite"
+            },
+            "faction2":{
+                "label": "Light Drone",
+                "sprite": "light_drone.sprite"
+            }
+        },
+        "Hitpoints" : [15,20,25,30,40,50,65],
+        "Speed" : [36, 40, 43, 47, 52, 55],
+        "Sight" : 42,
+        "Range" : 0,
+        "Strength": {
+            "unarmoured":{
+                "attack":[3, 4, 5.5, 7, 9, 12,15.3],
+                "defense":[4.5, 6, 8.3, 10.5, 13.5, 18, 22.9]
+            },
+            "light":{
+                "attack":[1.5],
+                "defense":[2.3]
+            },
+            "heavy":{
+                "attack":[1],
+                "defense": [1.5]
+            },
+            "air":{
+                "attack":[1],
+                "defense": [1.5]
+            },
+            "naval":{
+                "attack":[0.5],
+                "defense": [0.8]
+            },
+            "submarine":{
+                "attack":[0.5],
+                "defense": [0.8]
+            },
+            "buildings":{
+                "attack":[0.2],
+                "defense": [0.3]
+            },
+            "morale":{
+                "attack":[0.1]
+            }
+        },
+        "Production":{
+            "time": 105,
+            "money": 560,
+            "food:":790,
+            "goods": 370,
+            "manpower":820,
+            "metal": 0,
+            "fuel":0,
+            "rare":0
+        },
+        "Research":{
+            "time": 30,
+            "money": 2500,
+            "food:":1850,
+            "goods": 850,
+            "metal": 0,
+            "fuel":0,
+            "rare":0
+        },
+        "Upgrade": {
+            "time": 90,
+            "money": 350,
+            "goods": 235,
+            "manpower": 505
+            
+        },
+        "Maintenance": {
+            "money": 17,
+            "food:":24,
+            "goods": 11,
+            "manpower":25,
+            "metal": 0,
+            "fuel":0,
+            "rare":0
+        },
+        "Modifiers":{
+            "plains":{
+                "speed": 1,
+                "strength": 1,
+                "stealth": false,
+                "scout": false
+            },
+            "hills":{
+                "speed": 1,
+                "strength": 1,
+                "stealth": false,
+                "scout": false
+            },
+            "mountains":{
+                "speed": 0.5,
+                "strength": 1.2,
+                "stealth": false,
+                "scout": false
+            },
+            "forest":{
+                "speed": 1,
+                "strength": 1.2,
+                "stealth": false,
+                "scout": false
+            },
+            "urban":{
+                "speed": 1,
+                "strength": 1.5,
+                "stealth": false,
+                "scout": false
+            }
+        },
+        "Special":{
+            "storm": false,
+            "airUnit": false,
+            "navalUnit": false,
+            "friendlyFire": false,
+            "rocket": false,
+            "supersonic": false,
+            "nuclearWeapon": false,
+            "convertsOnAttack": false,
+            "fallout": false,
+            "airCarrier": false,
+            "troopCarrier": false
+        }
+    }
+}
